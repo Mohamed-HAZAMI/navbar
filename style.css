@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: lightgray;
+    width: 100%; 
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-item{
+    color: rgb(68, 68, 68);
+    font-family: 'Archivo Black', sans-serif;
+    width: 20%; 
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    align-items: center;
+}
+ul{
+    font-family: 'Archivo Black', sans-serif;
+    width: 50%; 
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+}
+.icon{
+    font-size: 15px;
+    padding-left: 5px;
+}
+ul li ul{
+    width: 180px;
+    height: 400px;
+    position: absolute;
+    top: 63px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: inherit;
+    padding-left: 5px;
+}
+ul li{
+    position: relative;
+}
+.Product1{
+    position: relative;
+}
+.drop-down1{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: -11px;
+    left: 170px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: inherit;
+    padding-left: 5px;
+}
+.Product8{
+    position: relative;
+}
+.drop-down2{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: -11px;
+    left: 170px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: inherit;
+    padding-left: 5px;
+}
+.contact4{
+    position: relative;
+}
+.drop-down3{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: -11px;
+    left: -180px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: inherit;
+    padding-left: 5px;
+}
+.contact5{
+    position: relative;
+}
+.drop-down4{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: -11px;
+    left: -180px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: inherit;
+    padding-left: 5px;
+}
+.icon{
+    font-size: 15px;
+    padding-left: 5px;
+   
+}
+@media (max-width:767px){
+    ul{
+        display:none;
+    }
+    .contact4{
+        position: relative;
+    }
+    .drop-down3{
+        width: 180px;
+        height: 100px;
+        position: absolute;
+        top: -11px;
+        left: 410px;
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        align-items: inherit;
+        padding-left: 5px;
+    }
+    .contact5{
+        position: relative;
+    }
+    .drop-down4{
+        width: 180px;
+        height: 100px;
+        position: absolute;
+        top: -11px;
+        left: 410px;
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        align-items: inherit;
+        padding-left: 5px;
+    }
+
+    .first-item{
+        width: 60%; 
+    }
+    .box{
+        background-color: lightgray;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .contact{
+        position: relative;
+    }
+    .drop2{
+        text-align: center;
+        position: absolute;
+        width: 700px;
+        top: 58px;
+        left: -300px;
+    }
+    .box>li{
+        padding-top: 30px ;
+    }
+    .drop1{
+        left: -60px;
+        text-align: center;
+    }
+}
+@media (min-width:767px) and (max-width:992px){
+    ul{
+        width: 80%; 
+    }
+    .first-item{
+        width: 40%; 
+    }
+    .drop2{
+        width: 135px;
+        left: -15px;
+        text-align: center;
+    }
+    .drop1{
+        width: 135px;
+        left: -15px;
+        text-align: center;
+    }
+    .drop-down1{
+        position: absolute;
+        left: 130px;
+    }
+    .drop-down2{
+        position: absolute;
+        left: 130px;
+    }
+    .Product1{
+        position: relative;
+    }
+    .Product8{
+        position: relative;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .drop2{
+        width: 135px;
+        left: -15px;
+        text-align: center;
+    }
+    .drop1{
+        width: 135px;
+        left: -15px;
+        text-align: center;
+    }
+    ul{
+        width: 65%; 
+    }
+    .first-item{
+        width: 35%; 
+    }
+    .drop-down1{
+        position: absolute;
+        left: 130px;
+    }
+    .drop-down2{
+        position: absolute;
+        left: 130px;
+    }
+    .Product1{
+        position: relative;
+    }
+    .Product8{
+        position: relative;
+    }
+}
