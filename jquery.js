@@ -8,9 +8,9 @@ $(function(){
 });
 $(function(){
     "use strict";
-    $(".drop1").hide(1,function(){
+    $("#drop1").hide(1,function(){
     $(".Product").hover(function(){
-        $(".drop1").stop(true,false,true).slideToggle()
+        $("#drop1").stop(true,false,true).slideToggle()
     });
   });
 });

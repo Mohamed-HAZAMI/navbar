@@ -114,9 +114,15 @@ ul li{
     padding-left: 5px;
    
 }
+
 @media (max-width:767px){
     ul{
         display:none;
+    }
+
+    #drop1>li{
+        display: none;
+        background-color: transparent;
     }
     .contact4{
         position: relative;
@@ -148,7 +154,6 @@ ul li{
         align-items: inherit;
         padding-left: 5px;
     }
-
     .first-item{
         width: 60%; 
     }
@@ -175,10 +180,10 @@ ul li{
     .box>li{
         padding-top: 30px ;
     }
-    .drop1{
+    /* .drop1{
         left: -60px;
         text-align: center;
-    }
+    } */
 }
 @media (min-width:767px) and (max-width:992px){
     ul{
