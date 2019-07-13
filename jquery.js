@@ -9,7 +9,7 @@ $(function(){
 $(function(){
     "use strict";
     $("#drop1").hide(1,function(){
-    $(".Product").hover(function(){
+    $(".Product").click(function(){
         $("#drop1").stop(true,false,true).slideToggle()
     });
   });
@@ -49,7 +49,7 @@ $(function(){
 $(function(){
     "use strict";
     $(".drop2").hide(1,function(){
-    $(".contact").hover(function(){
+    $(".contact").click(function(){
         $(".drop2").stop(true,false,true).slideToggle()
     });
   });
